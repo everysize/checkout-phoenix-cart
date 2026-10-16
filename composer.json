@@ -1,0 +1,25 @@
+{
+    "name": "everysize/checkout-phoenix-cart",
+    "description": "everysize Checkout – Add-on für CE Phoenix Cart",
+    "version": "1.0.0",
+    "type": "phoenix-cart-addon",
+    "license": "MIT",
+    "keywords": ["phoenix", "phoenix-cart", "oscommerce", "everysize", "checkout", "marketplace", "sneaker"],
+    "homepage": "https://www.everysize.com",
+    "authors": [
+        {
+            "name": "everysize GmbH",
+            "homepage": "https://www.everysize.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Everysize\\Checkout\\": "ext/everysize_checkout/src/"
+        }
+    }
+}
